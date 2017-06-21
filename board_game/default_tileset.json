@@ -1,18 +1,7 @@
-/*
-Slots: 1 = placeable, 0 = unplaceable
-Slot-Type (maybe make Enum for this?)
-0 = unplaceable (river for example)
-1 = grass
-2 = road
-3 = castle
-4 = endpoint (for roads)
-5 = cloyster
-*/
-
-{
-  "default-tiles":{
-    	"tile": {
-        "tile-name": "cloyster1",
+[{
+  "defaultTiles":[
+    	{
+        "tileName": "cloyster1",
           "slots": [
              1,1,1,1,1
             ,1,1,1,1,1
@@ -20,7 +9,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,1,1,1,1,1
           ],
-          "slot-type":[
+          "slotType":[
              1,1,1,1,1
             ,1,1,1,1,1
             ,1,1,5,1,1
@@ -28,11 +17,11 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
           ],
           "count": 4,
-          "double-points": false,
-          "img_src":'cloyster1.jpg'
+          "doublePoints": false,
+          "imgSrc": "cloyster1.jpg"
       },
-      "tile" :{
-        "tile-name": "cloyster2",
+      {
+        "tileName": "cloyster2",
           "slots": [
              1,1,1,1,1
             ,1,1,1,1,1
@@ -40,7 +29,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,1,1,1,1,1
           ],
-          "slot-type":[
+          "slotType":[
              1,1,1,1,1
             ,1,1,1,1,1
             ,1,1,5,1,1
@@ -48,11 +37,11 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,2,1,1
           ],
           "count": 2,
-          "double-points": false,
-          "img_src":'cloyster2.jpg'
+          "doublePoints": false,
+          "imgSrc":"cloyster2.jpg"
       },
-      "tile" :{
-        "tile-name": "cloyster3",
+      {
+        "tileName": "cloyster3",
           "slots": [
              1,1,1,1,1
             ,1,1,1,1,1
@@ -60,7 +49,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,1,1,1,1,1
           ],
-          "slot-type":[
+          "slotType":[
              1,1,1,1,1
             ,1,1,1,1,1
             ,2,2,5,2,2
@@ -68,11 +57,11 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
           ],
           "count": 1,
-          "double-points": false,
-          "img_src":'cloyster3.jpg'
+          "doublePoints": false,
+          "imgSrc":"cloyster3.jpg"
       },
-      "tile" :{
-        "tile-name": "cloyster4",
+      {
+        "tileName": "cloyster4",
           "slots": [
              1,1,1,1,1
             ,1,1,1,1,1
@@ -80,7 +69,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,1,1,1,1,1
           ],
-          "slot-type":[
+          "slotType":[
              1,1,2,1,1
             ,1,1,2,1,1
             ,2,2,5,2,2
@@ -88,11 +77,11 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,2,1,1
           ],
           "count": 1,
-          "double-points": false,
-          "img_src":'cloyster4.jpg'
+          "doublePoints": false,
+          "imgSrc":"cloyster4.jpg"
       },
-      "tile" :{
-      	"tile-name": "castlenesw1",
+      {
+      	"tileName": "castlenesw1",
           "slots": [
              1,1,1,1,1
             ,1,1,1,1,1
@@ -100,7 +89,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,1,1,1,1,1
           ],
-          "slot-type":[
+          "slotType":[
              3,3,3,3,3
             ,3,3,3,3,3
             ,3,3,3,3,3
@@ -108,19 +97,19 @@ Slot-Type (maybe make Enum for this?)
             ,3,3,3,3,3
           ],
           "count": 1,
-          "double-points": true,
-          "img_src":'castlenesw1.jpg'  
+          "doublePoints": true,
+          "imgSrc":"castlenesw1.jpg"  
       },
-      "tile" :{
-        "tile-name": "castlenesw2",
+      {
+        "tileName": "castlenesw2",
           "slots": [
              0,1,1,1,0
             ,1,0,1,0,1
-            ,1,1,1,1,1 //PROBLEM! TODO!
+            ,1,1,1,1,1 
             ,1,0,1,0,1
             ,0,1,1,1,0
           ],
-          "slot-type":[
+          "slotType":[
              3,3,3,3,3
             ,3,1,3,1,3
             ,3,3,3,3,3
@@ -128,11 +117,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,3,3,3,0
           ],
           "count": 1,
-          "double-points": true,
-          "img_src":'castlenesw2.jpg' 
+          "doublePoints": true,
+          "imgSrc":"castlenesw2.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenew1",
+      {
+        "tileName": "castlenew1",
           "slots": [
              1,1,1,1,1
             ,1,1,1,1,1
@@ -140,7 +129,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,0
           ],
-          "slot-type":[
+          "slotType":[
              3,3,3,3,3
             ,3,3,3,3,3
             ,3,3,3,3,3
@@ -148,11 +137,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,1,1,0
           ],
           "count": 2,
-          "double-points": false,
-          "img_src":'castlenew1.jpg' 
+          "doublePoints": false,
+          "imgSrc":"castlenew1.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenew2",
+      {
+        "tileName": "castlenew2",
           "slots": [
              1,1,1,1,1
             ,1,1,1,1,1
@@ -160,7 +149,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,0
           ],
-          "slot-type":[
+          "slotType":[
              3,3,3,3,3
             ,3,3,3,3,3
             ,3,3,3,3,3
@@ -168,11 +157,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,1,1,0
           ],
           "count": 1,
-          "double-points": true,
-          "img_src":'castlenew2.jpg' 
+          "doublePoints": true,
+          "imgSrc":"castlenew2.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenew3",
+      {
+        "tileName": "castlenew3",
           "slots": [
              1,1,1,1,1
             ,1,1,1,1,1
@@ -180,7 +169,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,0
           ],
-          "slot-type":[
+          "slotType":[
              3,3,3,3,3
             ,3,3,3,3,3
             ,3,3,3,3,3
@@ -188,11 +177,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,2,1,0
           ],
           "count": 1,
-          "double-points": false,
-          "img_src":'castlenew3.jpg' 
+          "doublePoints": false,
+          "imgSrc":"castlenew3.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenew4",
+      {
+        "tileName": "castlenew4",
           "slots": [
              1,1,1,1,1
             ,1,1,1,1,1
@@ -200,7 +189,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,0
           ],
-          "slot-type":[
+          "slotType":[
              3,3,3,3,3
             ,3,3,3,3,3
             ,3,3,3,3,3
@@ -208,11 +197,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,2,1,0
           ],
           "count": 2,
-          "double-points": true,
-          "img_src":'castlenew4.jpg' 
+          "doublePoints": true,
+          "imgSrc":"castlenew4.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenew5",
+      {
+        "tileName": "castlenew5",
           "slots": [
              0,1,1,1,0
             ,1,0,1,0,1
@@ -220,7 +209,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,0,1,0,1
             ,0,1,1,1,0
           ],
-          "slot-type":[
+          "slotType":[
              0,3,3,3,0
             ,3,1,1,1,3
             ,3,3,1,3,3
@@ -228,11 +217,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,3,3,3,0
           ],
           "count": 1,
-          "double-points": false,
-          "img_src":'castlenew5.jpg' 
+          "doublePoints": false,
+          "imgSrc":"castlenew5.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenw1",
+      {
+        "tileName": "castlenw1",
           "slots": [
              1,1,1,1,0
             ,1,1,1,1,1
@@ -240,7 +229,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,1
           ],
-          "slot-type":[
+          "slotType":[
              3,3,3,3,0
             ,3,3,1,1,1
             ,3,1,1,1,1
@@ -248,11 +237,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,1,1,1
           ],
           "count": 2,
-          "double-points": false,
-          "img_src":'castlenw1.jpg' 
+          "doublePoints": false,
+          "imgSrc":"castlenw1.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenw2",
+      {
+        "tileName": "castlenw2",
           "slots": [
              1,1,1,1,0
             ,1,1,1,1,1
@@ -260,7 +249,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,1
           ],
-          "slot-type":[
+          "slotType":[
              3,3,3,3,0
             ,3,3,1,1,1
             ,3,1,1,1,1
@@ -268,11 +257,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,1,1,1
           ],
           "count": 2,
-          "double-points": true,
-          "img_src":'castlenw2.jpg' 
+          "doublePoints": true,
+          "imgSrc":"castlenw2.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenw3",
+      {
+        "tileName": "castlenw3",
           "slots": [
              1,1,1,1,0
             ,1,1,1,1,1
@@ -280,27 +269,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,1
           ],
-          "slot-type":[
-             3,3,3,3,0
-            ,3,3,1,1,1
-            ,3,1,1,2,2
-            ,3,1,2,1,1
-            ,0,1,2,1,1
-          ],
-          "count": 2,
-          "double-points": true,
-          "img_src":'castlenw3.jpg' 
-      },
-      "tile" :{
-        "tile-name": "castlenw4",
-          "slots": [
-             1,1,1,1,0
-            ,1,1,1,1,1
-            ,1,1,1,1,1
-            ,1,1,1,1,1
-            ,0,1,1,1,1
-          ],
-          "slot-type":[
+          "slotType":[
              3,3,3,3,0
             ,3,3,1,1,1
             ,3,1,1,2,2
@@ -308,11 +277,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,2,1,1
           ],
           "count": 2,
-          "double-points": false,
-          "img_src":'castlenw4.jpg' 
+          "doublePoints": true,
+          "imgSrc":"castlenw3.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenw5",
+      {
+        "tileName": "castlenw4",
           "slots": [
              1,1,1,1,0
             ,1,1,1,1,1
@@ -320,7 +289,27 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,1
           ],
-          "slot-type":[
+          "slotType":[
+             3,3,3,3,0
+            ,3,3,1,1,1
+            ,3,1,1,2,2
+            ,3,1,2,1,1
+            ,0,1,2,1,1
+          ],
+          "count": 2,
+          "doublePoints": false,
+          "imgSrc":"castlenw4.jpg" 
+      },
+      {
+        "tileName": "castlenw5",
+          "slots": [
+             1,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,0,1,1,1,1
+          ],
+          "slotType":[
              3,3,3,3,0
             ,3,3,1,1,1
             ,3,1,2,2,2
@@ -328,11 +317,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,1,1,1
           ],
           "count": 1,
-          "double-points": false,
-          "img_src":'castlenw5.jpg' 
+          "doublePoints": false,
+          "imgSrc":"castlenw5.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenw6",
+      {
+        "tileName": "castlenw6",
           "slots": [
              1,1,1,1,0
             ,1,1,1,1,1
@@ -340,7 +329,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,1
           ],
-          "slot-type":[
+          "slotType":[
              3,3,3,3,0
             ,3,3,1,1,1
             ,3,1,2,1,1
@@ -348,11 +337,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,2,1,1
           ],
           "count": 1,
-          "double-points": false,
-          "img_src":'castlenw6.jpg' 
+          "doublePoints": false,
+          "imgSrc":"castlenw6.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenw7",
+      {
+        "tileName": "castlenw7",
           "slots": [
              0,1,1,1,0
             ,1,0,1,1,1
@@ -360,7 +349,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,1,1,1,1,1
           ],
-          "slot-type":[
+          "slotType":[
              0,3,3,3,0
             ,3,0,3,1,1
             ,3,3,2,2,2
@@ -368,11 +357,11 @@ Slot-Type (maybe make Enum for this?)
             ,1,2,1,1,1
           ],
           "count": 1,
-          "double-points": false,
-          "img_src":'castlenw7.jpg' 
+          "doublePoints": false,
+          "imgSrc":"castlenw7.jpg" 
       },
-      "tile" :{
-        "tile-name": "castlenw8",
+      {
+        "tileName": "castlenw8",
           "slots": [
              0,1,1,1,0
             ,1,0,1,1,1
@@ -380,7 +369,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,1,1,1,1,1
           ],
-          "slot-type":[
+          "slotType":[
              0,3,3,3,0
             ,3,0,3,1,1
             ,3,3,1,1,1
@@ -388,11 +377,11 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
           ],
           "count": 2,
-          "double-points": false,
-          "img_src":'castlenw8.jpg' 
+          "doublePoints": false,
+          "imgSrc":"castlenw8.jpg" 
       },
-      "tile" :{
-        "tile-name": "castleew1",
+      {
+        "tileName": "castleew1",
           "slots": [
              0,1,1,1,0
             ,1,1,1,1,1
@@ -400,7 +389,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,0
           ],
-          "slot-type":[
+          "slotType":[
              0,1,1,1,0
             ,3,3,3,3,3
             ,3,3,3,3,3
@@ -408,11 +397,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,1,1,0
           ],
           "count": 1,
-          "double-points": false,
-          "img_src":'castleew1.jpg' 
+          "doublePoints": false,
+          "imgSrc":"castleew1.jpg" 
       },
-      "tile" :{
-        "tile-name": "castleew2",
+      {
+        "tileName": "castleew2",
           "slots": [
              0,1,1,1,0
             ,1,1,1,1,1
@@ -420,7 +409,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,0
           ],
-          "slot-type":[
+          "slotType":[
              0,1,1,1,0
             ,3,3,3,3,3
             ,3,3,3,3,3
@@ -428,11 +417,11 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,1,1,0
           ],
           "count": 2,
-          "double-points": true,
-          "img_src":'castleew2.jpg' 
+          "doublePoints": true,
+          "imgSrc":"castleew2.jpg" 
       },
-      "tile" :{
-      		"tile-name": "castleew3",
+      {
+      		"tileName": "castleew3",
           "slots": [
              0,1,1,1,0
             ,1,1,1,1,1
@@ -440,7 +429,7 @@ Slot-Type (maybe make Enum for this?)
             ,1,1,1,1,1
             ,0,1,1,1,0
           ],
-          "slot-type":[
+          "slotType":[
              0,1,1,1,0
             ,3,1,1,1,3
             ,3,3,1,3,3
@@ -448,8 +437,8 @@ Slot-Type (maybe make Enum for this?)
             ,0,1,1,1,0
           ],
           "count": 2,
-          "double-points": false,
-          "img_src":'castleew3.jpg'   
+          "doublePoints": false,
+          "imgSrc":"castleew3.jpg"   
       }
-  }
-}
+  ]
+}]

@@ -1,14 +1,26 @@
 var {GameBoard} = require('./GameBoard');
+/*
+Slots: 1 = placeable, 0 = unplaceable
+slotType (maybe make Enum for this?)
+0 = unplaceable (river for example)
+1 = grass
+2 = road
+3 = castle
+4 = endpoint (for roads)
+5 = cloyster
+*/
+
+var default_tileset = require('./default_tileset.json');
+var image_path = "board_game/img/"
 
 class Piece{
 	
-	constructor(type, img_src, gameBoard){
+	constructor(name, gameBoard){
 		this.x = -999;
 		this.y = -999;
-		this.type = type;
-		this.img_src = img_src;
+		this.name = name;
 		this.gameBoard = gameBoard;
-		this.populateBasedOnType();
+		this.populateBasedOnName();
 		this.init();
 	}
 
@@ -20,28 +32,36 @@ class Piece{
 		this.meeples = [-1, -1, -1, -1, -1, -1, -1, -1, -1];
 	}
 
-	populateBasedOnType(){
+	populateBasedOnName(){
 		//based on type, populate some variables.
 		//determine slots, img_src, expansion pack 
 		this.slots = [];
 		this.img_src = '';
-		this.expansion_pack = -1; // Will decorate outline of card in hand to show which expansion it's from
-		switch(type){
-			case 0:
-				return;
-			case 1:
-				return;
-			default:
-				return;
+		var tiles = default_tileset[0].defaultTiles;
+
+		for(var i = 0; i < tiles.length; i++){
+			if(tiles[i].tileName === this.name){
+				this.slots = tiles[i].slots;
+				this.img_src = image_path + tiles[i].imgSrc;
+				this.slots_types = tiles[i].slotsType;
+				this.double_points = tiles[i].doublePoints;
+				//do something with their count
+			}
 		}
+
+
+		this.expansion_pack = -1; // Will decorate outline of card in hand to show which expansion it's from
+		
 	}
 
 	toString(){
-		return type + " : x: " + x + " y: " + y + " Meeples: [ " + meepleList + " ]";
+		return this.name + " : x: " + this.xx + " y: " + this.y + " Meeples: [ " + this.meepleList + " ]"
+		+ " slots: " + this.slots + " slots_types: " + this.slots_types + " img_src: " + this.img_src 
+		+ " double_points: " + this.double_points;
 	}
 
 	getPic(){
-		return "../img/img_src";
+		return this.img_src;
 	}
 
 	addMeeple(meeple, slot){
@@ -70,4 +90,4 @@ class Piece{
 }
 
 
-module.exports.CharacterClass = CharacterClass;
+module.exports.Piece = Piece;
