@@ -439,6 +439,246 @@
           "count": 2,
           "doublePoints": false,
           "imgSrc":"castleew3.jpg"   
+      },
+    {
+      		"tileName": "castlen1",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,2,2,2,2,2
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 2,
+          "doublePoints": false,
+          "imgSrc":"castlen1.jpg"   
+      },
+    {
+      		"tileName": "castlen2",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,2,2,1,2,2
+            ,1,1,2,2,1
+            ,1,1,2,1,1
+          ],
+          "count": 1,
+          "doublePoints": false,
+          "imgSrc":"castlen1.jpg"   
+      },
+    {
+      		"tileName": "castlen3",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,2,2,2,2,2
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "count": 4,
+          "doublePoints": false,
+          "imgSrc":"castlen3.jpg"   
+      },
+    {
+      		"tileName": "castlen4",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 1,
+          "doublePoints": false,
+          "imgSrc":"castlen4.jpg"   
+      },
+    {
+      		"tileName": "castlen5",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,2,2,1,1,1
+            ,1,2,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 1,
+          "doublePoints": false,
+          "imgSrc":"castlen5.jpg"   
+      },
+    {
+      		"tileName": "castlen6",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,2,2,2,1,1
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 1,
+          "doublePoints": false,
+          "imgSrc":"castlen6.jpg"   
+      },
+    {
+      		"tileName": "castlen7",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,1,1,1,2,2
+            ,1,1,2,2,1
+            ,1,1,2,1,1
+          ],
+          "count": 1,
+          "doublePoints": false,
+          "imgSrc":"castlen7.jpg"   
+      },
+    {
+      		"tileName": "castlen8",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,1,1,2,2,2
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 1,
+          "doublePoints": false,
+          "imgSrc":"castlen8.jpg"   
+      },
+    {
+      		"tileName": "castlen9",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,2,2,2,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "count": 2,
+          "doublePoints": false,
+          "imgSrc":"castlen9.jpg"   
+      },
+    {
+      		"tileName": "castlen10",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,1,1,2,2,2
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "count": 2,
+          "doublePoints": false,
+          "imgSrc":"castlen10.jpg"   
+      },
+    {
+      		"tileName": "castlen11",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "count": 3,
+          "doublePoints": false,
+          "imgSrc":"castlen11.jpg"   
+      },
+    {
+      		"tileName": "castlenc",
+          "slots": [
+             0,1,1,1,0
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,0,1,1,1,0
+          ],
+          "slotType":[
+             0,3,3,3,0
+            ,1,3,3,3,1
+            ,1,3,3,3,1
+            ,1,3,3,3,1
+            ,0,1,1,1,0
+          ],
+          "count": 1,
+          "doublePoints": true,
+          "imgSrc":"castlenc.jpg"   
       }
   ]
 }]
