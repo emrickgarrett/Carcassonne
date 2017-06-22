@@ -679,6 +679,146 @@
           "count": 1,
           "doublePoints": true,
           "imgSrc":"castlenc.jpg"   
+      },
+    {
+      		"tileName": "roadnesw",
+          "slots": [
+             1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,0,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             1,1,2,1,1
+            ,1,1,2,1,1
+            ,2,2,0,2,2
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 1,
+          "doublePoints": false,
+          "imgSrc":"roadnesw.jpg"   
+      },
+    {
+      		"tileName": "roadnesw2",
+          "slots": [
+             1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             1,1,2,1,1
+            ,1,1,2,2,1
+            ,2,2,1,2,2
+            ,1,2,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 1,
+          "doublePoints": false,
+          "imgSrc":"roadnesw2.jpg"   
+      },
+    {
+      		"tileName": "roadesw",
+          "slots": [
+             1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,0,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             1,1,1,1,1
+            ,1,1,1,1,1
+            ,2,2,0,2,2
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 3,
+          "doublePoints": false,
+          "imgSrc":"roadesw.jpg"   
+      },
+    {
+      		"tileName": "roadesw2",
+          "slots": [
+             1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,0,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,2,2,2,1
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 1,
+          "doublePoints": false,
+          "imgSrc":"roadesw2.jpg"   
+      },
+    {
+      		"tileName": "roadns",
+          "slots": [
+             1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             1,1,2,1,1
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 7,
+          "doublePoints": false,
+          "imgSrc":"roadns.jpg"   
+      },
+    {
+      		"tileName": "roadsw",
+          "slots": [
+             1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             1,1,1,1,1
+            ,1,1,1,1,1
+            ,2,2,2,1,1
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 7,
+          "doublePoints": false,
+          "imgSrc":"roadsw.jpg"   
+      },
+    {
+      		"tileName": "roadc",
+          "slots": [
+             1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,0,1,1
+            ,1,1,1,1,1
+            ,1,1,1,1,1
+          ],
+          "slotType":[
+             1,1,1,1,1
+            ,1,1,1,1,1
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+            ,1,1,2,1,1
+          ],
+          "count": 1,
+          "doublePoints": false,
+          "imgSrc":"roadc.jpg"   
       }
   ]
 }]
