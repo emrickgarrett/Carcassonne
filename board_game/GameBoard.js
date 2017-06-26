@@ -60,10 +60,7 @@ class GameBoard{
 				context.drawImage(this, -(this.width/2), -(this.height/2));
 				context.restore();
 			}
-			image.src = this.pieces[i].img_src;
-
-			//setup rotation
-			
+			image.src = this.pieces[i].img_src;			
 		}
 	}
 

@@ -30,7 +30,7 @@ class Deck{
 		for(var i = 0; i < tiles.length; i++){
 			for(var j = 0; j < tiles[i].count; j++){
 				this.deck.push(new Piece(tiles[i].tileName, this.gameboard, tiles[i].slots, 
-					image_path + tiles[i].imgSrc, tiles[i].slotsType, 
+					image_path + tiles[i].imgSrc, tiles[i].slotType, 
 					tiles[i].doublePoints, expansionNumber));
 			}
 		}
