@@ -50,7 +50,7 @@ class GameBoard{
 			const context = this.context;
 			const canvas = this.canvas;
 			const x = this.pieces[i].x*70+70;
-			const y = this.pieces[i].y*69+69;
+			const y = this.pieces[i].y*70+70;
 			const rot = this.pieces[i].rot
 			image.onload = function(){
 				//context.drawImage(this, x, y);
