@@ -10,17 +10,20 @@ slotType (maybe make Enum for this?)
 5 = cloyster
 */
 
-var default_tileset = require('./default_tileset.json');
-var image_path = "board_game/img/"
+
 
 class Piece{
 	
-	constructor(name, gameBoard){
+	constructor(name, gameBoard, slots,img_src, slot_types, double_points, expansion_number){
 		this.x = -999;
 		this.y = -999;
 		this.name = name;
 		this.gameBoard = gameBoard;
-		this.populateBasedOnName();
+		this.slots = slots;
+		this.img_src = img_src;
+		this.slot_types = slot_types;
+		this.double_points = double_points;
+		this.expansion_number = expansion_number;
 		this.init();
 	}
 
@@ -33,24 +36,6 @@ class Piece{
 	}
 
 	populateBasedOnName(){
-		//based on type, populate some variables.
-		//determine slots, img_src, expansion pack 
-		this.slots = [];
-		this.img_src = '';
-		var tiles = default_tileset[0].defaultTiles;
-
-		for(var i = 0; i < tiles.length; i++){
-			if(tiles[i].tileName === this.name){
-				this.slots = tiles[i].slots;
-				this.img_src = image_path + tiles[i].imgSrc;
-				this.slots_types = tiles[i].slotsType;
-				this.double_points = tiles[i].doublePoints;
-				//do something with their count
-			}
-		}
-
-
-		this.expansion_pack = -1; // Will decorate outline of card in hand to show which expansion it's from
 		
 	}
 

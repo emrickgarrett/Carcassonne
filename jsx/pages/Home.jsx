@@ -15,7 +15,8 @@ class Home extends React.Component{
 	}
 
 	componentDidMount(){
-		var game = new GameBoard(null, 1, document.getElementById('game-canvas').getContext("2d"));
+		var game = new GameBoard(null, 1, document.getElementById('game-canvas'));
+		game.placeAllPieces();
 		game.render();
 	}
 
@@ -24,7 +25,7 @@ class Home extends React.Component{
 		<div>
 			<PageHeader title="Main Menu" date="true"/>
 			<div className='game-container'>
-				<canvas id="game-canvas" width="1533px" height="900px"></canvas>
+				<canvas id="game-canvas" width="1190px" height="900px"></canvas>
 			</div>
 		</div>
 		);	
