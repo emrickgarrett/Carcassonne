@@ -36,10 +36,6 @@ class GameBoard{
 		if(this.board[x+y*this.boardHeight] === -1){
 			return true;
 		}
-		console.log(x);
-		console.log(y);
-		console.log(x+y*this.boardHeight);
-		console.log(this.boardHeight);
 		return false;
 	}
 
@@ -49,17 +45,25 @@ class GameBoard{
 
 	//render the board onto the canvas
 	render(){
-		//TODO
 		for(var i = 0; i < this.pieces.length; i++){
 			var image = new Image();
 			const context = this.context;
-			const x = this.pieces[i].x*70;
-			const y = this.pieces[i].y*69;
+			const canvas = this.canvas;
+			const x = this.pieces[i].x*70+70;
+			const y = this.pieces[i].y*69+69;
+			const rot = this.pieces[i].rot
 			image.onload = function(){
-				context.drawImage(this, x, y);
+				//context.drawImage(this, x, y);
+				context.save();
+				context.translate(x, y);
+				context.rotate(rot * (Math.PI/180));
+				context.drawImage(this, -(this.width/2), -(this.height/2));
+				context.restore();
 			}
 			image.src = this.pieces[i].img_src;
-			this.context.drawImage(image, 70 + 70*i, 69);
+
+			//setup rotation
+			
 		}
 	}
 
