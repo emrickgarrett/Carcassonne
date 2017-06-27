@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 
 import PageHeader from '../components/PageHeader.jsx';
 
-import GameBoard from '../../board_game/GameBoard.js';
+import GameMaster from '../../board_game/GameMaster.js';
 
 class Home extends React.Component{
 	constructor(){
@@ -15,9 +15,8 @@ class Home extends React.Component{
 	}
 
 	componentDidMount(){
-		var game = new GameBoard(null, 1, document.getElementById('game-canvas'));
-		game.placeAllPieces();
-		game.render();
+		var game = new GameMaster(document.getElementById('game-canvas'), null);
+		game.startGame();
 	}
 
 	render(){

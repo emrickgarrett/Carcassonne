@@ -53,7 +53,6 @@ class GameBoard{
 			const y = this.pieces[i].y*70+70;
 			const rot = this.pieces[i].rot
 			image.onload = function(){
-				//context.drawImage(this, x, y);
 				context.save();
 				context.translate(x, y);
 				context.rotate(rot * (Math.PI/180));
@@ -87,4 +86,4 @@ class GameBoard{
 
 }
 
-export default GameBoard;
+module.exports.GameBoard = GameBoard;
