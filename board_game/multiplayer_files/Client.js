@@ -2,6 +2,8 @@
 //If I export this game to another area (such as Randybot) 
 //Client will be invalid... making it work with Node.js Backend most likely
 
+var {ClientCommand} = require("./ClientCommand");
+
 class Client{
 	
 	constructor(){

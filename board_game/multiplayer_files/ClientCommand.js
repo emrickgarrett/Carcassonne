@@ -1,12 +1,13 @@
 
 class ClientCommand{
 	
-	constructor(){
-
+	constructor(input){
+		this.player = player;
+		this.input = input;
 	}
 
-	toString(){
-	
+	toJSONObject(){
+		return {"player": this.player, "input": this.input}
 	}
 
 }
