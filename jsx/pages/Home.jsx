@@ -15,7 +15,7 @@ class Home extends React.Component{
 	}
 
 	componentDidMount(){
-		var game = new GameMaster(document.getElementById('game-canvas'), null);
+		var game = new GameMaster(document.getElementById('game-canvas'), document);
 		game.startGame();
 	}
 

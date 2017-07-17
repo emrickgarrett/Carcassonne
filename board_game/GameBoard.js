@@ -2,12 +2,12 @@ var {Deck} = require("./Deck");
 
 class GameBoard{
 
-	constructor(players, expansionNumber, canvas){
+	constructor(players, expansionNumber, canvas, context){
 		this.deck = new Deck(this);
 		this.players = players;
 		this.expansionNumber = expansionNumber;
 		this.canvas = canvas; // The actual Canvas. Use this for height/width
-		this.context = canvas.getContext("2d"); // Used for Drawing
+		this.context = context; // Used for Drawing
 		this.init();
 
 	}
@@ -49,8 +49,8 @@ class GameBoard{
 			var image = new Image();
 			const context = this.context;
 			const canvas = this.canvas;
-			const x = this.pieces[i].x*70+70;
-			const y = this.pieces[i].y*70+70;
+			const x = this.pieces[i].x*70+35;
+			const y = this.pieces[i].y*70+35;
 			const rot = this.pieces[i].rot
 			image.onload = function(){
 				context.save();
