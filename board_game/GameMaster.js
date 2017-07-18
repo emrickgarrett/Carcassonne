@@ -36,7 +36,7 @@ class GameMaster {
 		//do stuff with the dom
 	}
 
-	gameLoop(GameMaster){
+	gameLoop(){
 		//No turn logic/placing logic for EVERYONE, just the local player. Game loop will have to be server side
 		//console.log(this);
 		this.playerInputController.updateMouse();
