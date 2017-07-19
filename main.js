@@ -5,5 +5,5 @@ import App from './jsx/App.jsx';
 
 
 ReactDOM.render(
-	<App/>
+	<App />
 , document.getElementById('app'));
